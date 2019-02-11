@@ -1,0 +1,13 @@
+Title: "Avoid the Asteroids"
+Player: "Rocket Ship"
+Enemy: "Asteroids" --right now they look like turds
+PowerUPs{
+  -item that replenishes hp
+  -item that makes you invulnerable for a short period of time
+  -Wall barrier that knocks out all asteroids for a short period of time to give the player a break
+}
+Movement: "Mouse"
+
+Date of incident: 6/28/2014
+Time: 12:59
+What Happened: I now understand how to do collision detection for Circles BITCH!!!

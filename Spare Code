@@ -1,0 +1,16 @@
+		if(makenewitem == true){
+			makenewitem = false;
+			timetillnewrock = (sec * 4) + System.currentTimeMillis();
+			ammounttocreate++;
+			if(ammounttocreate > 2){
+				ammounttocreate = 2;
+			}
+			
+		}
+		if(System.currentTimeMillis() > timetillnewrock && makenewitem == false){
+			makenewitem = true;
+			for(int d = 0; d < ammounttocreate; d++){
+				asteroid m = new asteroid(sheet);
+				rock.add(m);
+			}
+		}
